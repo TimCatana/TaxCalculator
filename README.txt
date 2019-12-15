@@ -1,2 +1,1 @@
-this program calculates the tax chunk and final  value
-given an initial value and a tax value
+compilation: gcc -ansi -o tax taxCalculator.c
