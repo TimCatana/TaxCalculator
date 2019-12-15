@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 /*
  *   Program Name: taxCalculator.c
@@ -14,7 +15,6 @@
 int main ( int argc, char *argv[] ) {
 
 	int i, j;
-	char currentInput[100];
 	float initial, tax, taxValue, final;
 
 	system("clear");
@@ -52,7 +52,7 @@ int main ( int argc, char *argv[] ) {
 	system("clear");
 
 	printf("Initial value: $%0.2f\n", initial);
-	printf("Tax: %0.2f%\n", tax);
+	printf("Tax: %0.2f%% \n", tax);
 	printf("Tax chunk: $%0.2f\n", taxValue);
 	printf("Final value: $%0.2f\n", final);
 
