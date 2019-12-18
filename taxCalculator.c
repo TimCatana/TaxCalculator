@@ -27,7 +27,7 @@ int main ( int argc, char *argv[] ) {
 	/* throw error if letters are found */
 	for(i = 1; i < 3; i++){
 		for(j = 0; j < strlen(argv[i]); j++){
-			if(isdigit(argv[i][j]) == 0){
+			if(isdigit(argv[i][j]) == 0 && argv[i][j] != '.'){
 				printf("ERROR - no letters allowed\n");
 				exit(0);
 			}
