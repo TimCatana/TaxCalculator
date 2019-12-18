@@ -28,7 +28,7 @@ int main ( int argc, char *argv[] ) {
 	for(i = 1; i < 3; i++){
 		for(j = 0; j < strlen(argv[i]); j++){
 			if(isdigit(argv[i][j]) == 0){
-				printf("ERROR - no letter allowed\n");
+				printf("ERROR - no letters allowed\n");
 				exit(0);
 			}
 		}
