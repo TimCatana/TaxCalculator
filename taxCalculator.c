@@ -13,12 +13,11 @@
  */
 
 int main ( int argc, char *argv[] ) {
-
 	int i, j;
 	float initial, tax, taxValue, final;
 
 	system("clear");
-
+	
 	if(argc != 3){
 		printf("Excecuton: ./tax <initialValue> <tax>\n");
 		exit(0);
